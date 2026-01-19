@@ -19,7 +19,7 @@ module tb_mat_mult_2x2fsmpipe;
     integer err_count = 0;
 
     // Instantiate DUT (Device Under Test)
-    mat_mult_2x2 u_dut (
+    mat_mult_2x2fsmpipe u_dut (
         .clk(clk),
         .reset(reset),
         .start(start),
